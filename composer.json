@@ -1,0 +1,21 @@
+{
+    "name": "asus/dms",
+    "description": "Document Management System",
+    "autoload": {
+        "psr-4": {
+            "Asus\\Dms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "febrian"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^1.1",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "setasign/fpdf": "^1.8",
+        "tecnickcom/tcpdf": "^6.6",
+        "setasign/fpdi": "^2.6"
+    }
+}

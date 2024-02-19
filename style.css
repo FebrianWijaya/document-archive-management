@@ -1,0 +1,138 @@
+/* Import Roboto font from Google Fonts with a bolder font weight (700) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Import Font Awesome CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+/* ----- Sidebar Styles ----- */
+
+/* Sidebar container */
+.sidebar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #F8FBFD;
+    border-right: 1px solid black;
+    border-width: 1px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 700; /* Set a bolder font weight */
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Logo Image */
+.logo img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Sidebar Links */
+.sidebar a {
+    padding: 15px 25px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    color: #030303;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 700; /* Set a bolder font weight */
+}
+
+/* Sidebar Links Hover Effect */
+.sidebar a:hover {
+    background-color: #ababac;
+}
+
+/* Sidebar Paragraphs */
+.sidebar p {
+    padding: 15px 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+    text-decoration: none;
+    color: #030303;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 700; /* Set a bolder font weight */
+}
+
+/* Sidebar Paragraphs Hover Effect */
+.sidebar p:hover {
+    background-color: #F8FBFD;
+}
+
+/* ----- Dropdown Styles ----- */
+
+/* Dropdown Container - Always visible */
+.dropdown-container {
+    background-color: #F8FBFD;
+    display: block;
+}
+
+/* Dropdown Links - Always visible */
+.dropdown-container a {
+    display: block;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    color: #030303;
+    transition: 0.3s;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 700; /* Set a bolder font weight */
+}
+
+/* Dropdown Links Hover Effect */
+.dropdown-container a:hover {
+    background-color: #9e9e9e;
+}
+
+/* ----- User Info Header ----- */
+
+/* User Info Header */
+.user-info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 16px;
+    color: #030303;
+    background-color: #F8FBFD;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: 700; /* Set a bolder font weight */
+}
+
+/* ----- Header Styles ----- */
+
+/* Header Border */
+.header {
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* ----- Content Styles ----- */
+
+/* Content Styles */
+.content {
+    margin-left: 350px;
+    margin-top: 60px;
+    padding: 20px;
+}
